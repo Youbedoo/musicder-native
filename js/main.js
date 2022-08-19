@@ -70,7 +70,7 @@ function searchF() {
         }
     });
 
-    search.open("GET", "https://songapi.thetuhin.com/search?query=" + songquery);
+    search.open("GET", "https://quaint-plum-caridea.cyclic.app/search?query=" + songquery);
     search.send();
 }
 
